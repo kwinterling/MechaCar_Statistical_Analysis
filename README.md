@@ -24,3 +24,7 @@ The overall mean and median for each lot and all data is roughly the same, at ar
 ![Lot 3 t-test](Resources/t3.png)
 
 Based on the t-tests, Lots 1 and 2 have large p-values over 0.05 (1 and 0.6072), so we fail to reject the null hypothesis and conclude that the mean PSI values for Lots 1 and 2 are probably equal to the population mean of 1500. However, the p-value for Lot 3 is 0.04168, so we reject the null hypothesis and conclude that the mean PSI value for Lot 3 is not 1500.
+
+## Study Design: MechaCar vs Competition
+
+In this study, I plan to compare miles per gallon (mpg) of MechaCar with its competition. The null hypothesis is that the mean mpg of both car models is the same, while the alternative hypothesis is that the means differ. I will use a two-sample t-test to test the hypothesis because a two-sample t-test is suitable for comparing the means of two data sets. In order to conduct this test, I will need a significant number of mpg observations from a set of cars from a brand that competes with MechaCar.
