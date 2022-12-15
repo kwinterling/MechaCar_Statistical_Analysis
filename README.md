@@ -15,4 +15,12 @@ Based on the above linear regression summary, we do not have that great of a fit
 
 The overall mean and median for each lot and all data is roughly the same, at around 1500. However, the variance of Lot3 suspension coils significantly exceeds 100 at 170.29, so therefore the Lot3 suspension coils do not meet the design specification. However, the suspension coils in Lot1 and Lot2 do meet the design specification.
 
+## T-Tests on Suspension Coils
 
+![Lot 1 t-test](Resources/t1.png)
+
+![Lot 2 t-test](Resources/t2.png)
+
+![Lot 3 t-test](Resources/t3.png)
+
+Based on the t-tests, Lots 1 and 2 have large p-values over 0.05 (1 and 0.6072), so we fail to reject the null hypothesis and conclude that the mean PSI values for Lots 1 and 2 are probably equal to the population mean of 1500. However, the p-value for Lot 3 is 0.04168, so we reject the null hypothesis and conclude that the mean PSI value for Lot 3 is not 1500.
